@@ -6,6 +6,7 @@ public class Student {
     private double grade;
 
     public StringBuilder getName(){
+        //new line for git
         return name;
     }
 
