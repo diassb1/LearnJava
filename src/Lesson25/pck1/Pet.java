@@ -1,14 +1,17 @@
 package Lesson25.pck1;
 
 public class Pet extends Animal{
-    Pet(String name){
-        System.out.println("Это стринг нейм");
-        }
+
     Pet(){
         System.out.println("I am pet");
         super.eyes = 2;
     }
-    protected String name;
+    Pet(String name) {
+        this.name = name;
+    }
+
+    protected String xoziain;
+
     protected int tail = 1;
     protected int paw = 4;
 

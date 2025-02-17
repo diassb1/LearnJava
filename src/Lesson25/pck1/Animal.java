@@ -4,6 +4,7 @@ public class Animal {
     Animal(){
         System.out.println("I am animal");
     }
+    protected String name;
 
     protected int eyes;
 
